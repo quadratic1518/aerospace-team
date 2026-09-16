@@ -91,6 +91,21 @@ python shared/tools/timeline.py gantt --launch-date 2027-03-15 --destination Mar
 - `constants.py` — Physics constants (G, mu, planetary data, J2)
 - Run `python shared/sync_data.py --check` to verify data freshness
 
+## Space Engineering Copilot API
+
+The repository includes a starter LLM application in `app/`. It retrieves the relevant skill documents, cites their source locations, and can call only allow-listed deterministic engineering tools. It is intended for **preliminary design support**, never flight certification.
+
+```bash
+python -m venv .venv
+.venv\\Scripts\\activate
+pip install -r requirements.txt
+Copy-Item .env.example .env
+# Set LLM_API_KEY and LLM_MODEL in .env (an OpenAI-compatible endpoint or Ollama)
+uvicorn app.api:app --reload
+```
+
+Open `http://127.0.0.1:8000/docs` to test the API. Use `POST /chat` with `{ "question": "What delta-v is needed from LEO to Mars?" }`. The raw verified calculators are also available through `POST /tools/execute`.
+
 ## Installation
 
 Copy `space-engineering/` into your `.claude/skills/` directory:
