@@ -97,7 +97,7 @@ Copy `space-engineering/` into your `.claude/skills/` directory:
 
 ```bash
 # Clone
-git clone https://github.com/devideamax/aerospace-team.git
+git clone https://github.com/quadratic1518/aerospace-team.git
 
 # Install
 cp -r aerospace-team/ ~/.claude/skills/space-engineering/
