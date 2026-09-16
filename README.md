@@ -120,4 +120,4 @@ MIT + Attribution — see [LICENSE](LICENSE) for details.
 
 ---
 
-Built with precision by [IDEAMAX Skills Factory](https://ideamax.eu) | [Biko.bg](https://biko.bg)
+
