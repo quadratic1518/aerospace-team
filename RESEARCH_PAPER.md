@@ -1,9 +1,11 @@
 # Space Engineering Pack: An AI-Augmented Framework for Spacecraft and Launch Vehicle Design
 
 **Author:** RAAVI PRANEETH REDDY  
-**Institution:** [SRM Institute of Science and Technology ]  
+**Institution:** SRM Institute of Science and Technology  
 **Repository:** https://github.com/quadratic1518/aerospace-team  
 **Date:** September 2026
+
+> **View online (no download):** [Read on GitHub](https://github.com/quadratic1518/aerospace-team/blob/main/RESEARCH_PAPER.md) · [Web version](https://quadratic1518.github.io/aerospace-team/)
 
 ---
 
